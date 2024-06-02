@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countdown</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            text-align: center;
+        }
+        .countdown {
+            font-size: 2em;
+            margin: 20px;
+            text-align: center;
+        }
+        .message {
+            font-size: 2em;
+            margin: 20px;
+            text-align: center;
+            color: green;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 1.5em;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="countdown" id="countdown">10</div>
+        <div class="message" id="message"></div>
+        <button onclick="startCountdown()">Start</button>
+    </div>
+
+    <script src="./script.js">
+      
+    </script>
+</body>
+</html>
